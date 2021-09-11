@@ -1,0 +1,7 @@
+applications:
+  - name: Give and Receive
+memory: 64M
+path: build/web/
+buildpack: staticfile_buildpack 
+routes:
+  - route: flutter-G-R-sipf.us-east.cf.appdomain.cloud
